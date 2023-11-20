@@ -1,4 +1,5 @@
 var x = JSON.parse(localStorage.getItem("allData"))||[];
+console.log(x);
 var z;
 
 function showItems(x){  
